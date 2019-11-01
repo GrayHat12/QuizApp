@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38383b"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/index"
+        android:text="1/12"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUESTION"
+        android:id="@+id/ques"
+        android:textSize="40dp"
+        android:paddingBottom="50dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio"
+        android:paddingBottom="50dp">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:id="@+id/op1"
+            android:layout_height="wrap_content"
+            android:text="Op1"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:id="@+id/op2"
+            android:layout_height="wrap_content"
+            android:text="Op2"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:id="@+id/op3"
+            android:layout_height="wrap_content"
+            android:text="Op3"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:id="@+id/op4"
+            android:layout_height="wrap_content"
+            android:text="Op4"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prev"
+            android:text="PREVIOUS"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next"
+            android:text="NEXT"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="SUBMIT"
+        android:id="@+id/submit"/>
+
+</LinearLayout>
